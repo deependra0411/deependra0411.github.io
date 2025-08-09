@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Deependra Kumar's Portfolio </title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+</head>
+
+<body>
+
+  <!-- Navbar  Section Start -->
+
+  <header>
+    <a href="/" class="logo"><span style="font-family: Arial, Helvetica, sans-serif;"></span>Port<span
+        style="color: red;">Folio</span></a>
+
+    <div class="bx bx-menu" id="menu-icon"></div>
+
+    <ul class="navbar" id="nav-menu">
+      <li><a class="nav-link home" href="#home">Home</a></li>
+      <li><a class="nav-link about" href="#about">About Me</a></li>
+      <li><a class="nav-link education" href="#education">Education</a></li>
+      <li><a class="nav-link achievements" href="#achievements">Achievements</a></li>
+      <li><a class="nav-link skills" href="#skills">Skills</a></li>
+      <li><a class="nav-link certificate" href="#certificates">Certificates</a></li>
+      <li><a class="nav-link projects" href="#projects">Projects</a></li>
+      <li><a class="nav-link contact" href="#contact">Contact</a></li>
+      <li>
+        <a class="nav-link resume" download id="resume-button-1"
+          href="https://drive.google.com/file/d/1oOQOyyqBdAec3oIn47T5_dWJNInYpFF_/view?usp=drive_link" rel="noreferrer"
+          target="_blank"> <i class="uil uil-message nav__icon"></i> Resume
+        </a>
+      </li>
+    </ul>
+  </header>
+
+
+  <!-- Navbar Section End -->
+
+  <!-- Home Section Start -->
+
+  <section id="home">
+    <div class="home-text">
+      <span>Hello👋, I'm</span>
+      <h1 id="user-detail-name">Deependra Kumar</h1>
+      <h2>Software Developer</h2>
+      <br />
+      <a id="resume-link-2" href="./Resume/Deependra kumar.docx" target="_blank"
+        download="Deependra kumar-Resume"> <button class="resume-button" id="resume-button-2"
+          onclick="window.open('https://drive.google.com/file/d/1oOQOyyqBdAec3oIn47T5_dWJNInYpFF_/view?usp=drive_link')">Resume</button>
+      </a>
+    </div>
+    <div class="home-img1">
+      <img src="./image/LinkedInDP.jpg" alt="Deependra_Kumar">
+    </div>
+
+  </section>
+
+  <!-- Home Section End -->
+
+
+  <!-- About Section Start -->
+
+  <section class="about section" id="about">
+    <div class="heading">
+      <h2>About Me</h2>
+      <span>Introduction</span>
+    </div>
+
+    <div class="about-container">
+      <div class="home-img-main">
+        <img class="home-img" src="./image/gif.gif" alt="coder gif">
+      </div>
+      <div class="about-text" id="user-detail-intro">
+        <p> Passionate Backend Developer with 1.5+ years of hands-on experience in designing, building, and deploying 
+          enterprise-grade scalable systems. Specialized in Python ecosystem with expertise in FastAPI, PostgreSQL, 
+          Redis, and cloud technologies including AWS (SageMaker, Lambda, Step Functions) and Google Cloud Platform (GKE). 
+          <br><br>
+          Proven track record in microservices architecture, containerization with Docker and Kubernetes, and implementing 
+          comprehensive monitoring solutions. Known for taking end-to-end ownership of projects from conception to production 
+          deployment, with strong focus on performance optimization and system reliability.
+          <br><br>
+          Recognized for exceptional problem-solving abilities with HackerRank Gold badges in Python and Problem Solving, 
+          and recipient of multiple awards including the K Vasudevan Award and Best Team Award. Committed to 
+          continuous learning and contributing to high-impact projects in collaborative engineering environments.
+        </p>
+        <div class="information">
+          <div class="info-box">
+            <i class='bx bxs-user'></i>
+            <span> </span>
+            <h3>Deependra Kumar</h3>
+          </div>
+
+          <div class="info-box">
+            <i class='bx bxs-phone'></i>
+            <span id="contact-phone">+91-9685468824</span>
+          </div>
+
+          <div class="info-box">
+            <i class='bx bxs-envelope'></i>
+            <span id="contact-email">kdeep05.dg@gmail.com</span>
+          </div>
+
+          <div class="info-box">
+            <a href="https://www.linkedin.com/in/deependrakrdk" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <span id="contact-linkedin"><a href="https://www.linkedin.com/in/deependrakrdk" target="_blank">www.linkedin.com/in/deependrakrdk</a></span>
+          </div>
+
+          <div class="info-box">
+            <a href="https://github.com/deependra0411" target="_blank"><i class='bx bxl-github'></i></a>
+            <span id="contact-github"><a href="https://github.com/deependra0411" target="_blank">https://github.com/deependra0411</a></span>
+          </div>
+          <a class="nav-link resume" download id="resume-button"
+            href="https://drive.google.com/file/d/1oOQOyyqBdAec3oIn47T5_dWJNInYpFF_/view?usp=drive_link" rel="noreferrer"
+            target="_blank"> <i class="uil uil-message nav__icon"></i> <button class="resume-button">Resume</button>
+          </a>
+        </div>
+      </div>
+  </section>
+
+  <!-- About Section End -->
+
+  <!-- Education Section Start -->
+  <section class="education section" id="education">
+    <div class="heading">
+      <h2>Education</h2>
+      <span>Academic Background</span>
+    </div>
+    <br>
+    <div class="education-container">
+      <div class="education-card">
+        <div class="education-info">
+          <h3>Bachelor of Engineering in Electrical Engineering</h3>
+          <h4>SHRI VAISHNAV INSTITUTE OF TECHNOLOGY AND SCIENCE (SVITS)</h4>
+          <div class="education-details">
+            <p><strong>Location:</strong> Indore, India</p>
+            <p><strong>CGPA:</strong> 8.1/10</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Education Section End -->
+
+  <!-- Achievements Section Start -->
+  <section class="achievements section" id="achievements">
+    <div class="heading">
+      <h2>Achievements & Awards</h2>
+      <span>Recognition & Honors</span>
+    </div>
+    <br>
+    <div class="achievements-container">
+      <div class="achievement-card">
+        <div class="achievement-icon">
+          <i class='bx bxs-trophy'></i>
+        </div>
+        <div class="achievement-info">
+          <h3>Python Gold Badge</h3>
+          <p>Issued by HackerRank</p>
+          <span class="achievement-date">2023</span>
+        </div>
+      </div>
+      
+      <div class="achievement-card">
+        <div class="achievement-icon">
+          <i class='bx bxs-trophy'></i>
+        </div>
+        <div class="achievement-info">
+          <h3>Problem Solving Gold Badge</h3>
+          <p>Issued by HackerRank</p>
+          <span class="achievement-date">2023</span>
+        </div>
+      </div>
+      
+      <div class="achievement-card">
+        <div class="achievement-icon">
+          <i class='bx bxs-medal'></i>
+        </div>
+        <div class="achievement-info">
+          <h3>SQL Silver Badge</h3>
+          <p>Issued by HackerRank</p>
+          <span class="achievement-date">2023</span>
+        </div>
+      </div>
+      
+      <div class="achievement-card">
+        <div class="achievement-icon">
+          <i class='bx bxs-award'></i>
+        </div>
+        <div class="achievement-info">
+          <h3>Best Team Award</h3>
+          <p>Team achievement with client appreciation</p>
+          <span class="achievement-date">Professional</span>
+        </div>
+      </div>
+      
+      <div class="achievement-card">
+        <div class="achievement-icon">
+          <i class='bx bxs-crown'></i>
+        </div>
+        <div class="achievement-info">
+          <h3>K Vasudevan Award</h3>
+          <p>Among top 1000 final year students, SVITS Indore</p>
+          <span class="achievement-date">2019</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Achievements Section End -->
+
+  <!--certification-->
+  <section class="certificates" id="certificates">
+    <div class="max-width">
+      <div class="heading">
+        <h2>Certifications</h2>
+        <span>My Certificates <span style="color: rgb(221, 72, 216);">Click on Certificate To View
+            Certificates</span></span>
+      </div>
+      <br>
+
+      <div class="carousel">
+        <div class="card">
+          <div class="box">
+            <img onclick="window.open('https://www.hackerrank.com/certificates/5084e55803a7')" src="./image/python_basic.png"
+              alt="Python Basic Certificate" height="300" width="40">
+            <div class="certificate-info">
+              <h4>Python (Basic)</h4>
+              <p>HackerRank - August 2023</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box">
+            <img onclick="window.open('https://www.hackerrank.com/certificates/dbc3a752a6dc')"
+              src="./image/problem_solving.png" alt="Problem Solving Certificate" height="300" width="40">
+            <div class="certificate-info">
+              <h4>Problem Solving (Basic)</h4>
+              <p>HackerRank - August 2023</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!--certification-->
+
+  <!--------------------- Skills Section --------------------->
+  <section class="skills section" id="skills">
+    <div class="heading">
+      <h2>Technical Skills</h2>
+      <span>Skills & Tools</span>
+    </div>
+    <br>
+
+    <div class="skills-container bd-grid">
+      <!-- Backend Technologies -->
+      <div>
+        <h2 class="skills-subtitle">Backend Technologies</h2>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon"
+              src="https://th.bing.com/th/id/R.6520c7f9c26167c17c1b4151d0caf9b6?rik=M%2fsglQqDHrj7Ow&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fpython-logo-transparent%2fpython-logo-transparent-20.png&ehk=6VzezRPWRy60a5sdzRKqdJ3hvL%2bZyjIlleowRZv6nNY%3d&risl=&pid=ImgRaw&r=0" />
+            <span class="skills-card-name">Python</span>
+          </div>
+        </div>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon"
+              src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" />
+            <span class="skills-card-name">FastAPI</span>
+          </div>
+        </div>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon"
+              src="https://www.postgresql.org/media/img/about/press/elephant.png" />
+            <span class="skills-card-name">PostgreSQL</span>
+          </div>
+        </div>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon"
+              src="https://cdn4.iconfinder.com/data/icons/redis-2/1451/Untitled-2-512.png" alt="Redis" />
+            <span class="skills-card-name">Redis</span>
+          </div>
+        </div>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon"
+              src="https://cdn4.iconfinder.com/data/icons/redis-2/1451/Untitled-2-512.png" alt="Redis Streams" />
+            <span class="skills-card-name">Redis Streams</span>
+          </div>
+        </div>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon"
+              src="https://cdn-icons-png.flaticon.com/512/2164/2164832.png" />
+            <span class="skills-card-name">REST APIs</span>
+          </div>
+        </div>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon"
+              src="https://cdn-icons-png.flaticon.com/512/4230/4230615.png" />
+            <span class="skills-card-name">Microservices</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- DevOps & Infrastructure -->
+      <div>
+        <h2 class="skills-subtitle">DevOps & Infrastructure</h2>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon"
+              src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" />
+            <span class="skills-card-name">Docker</span>
+          </div>
+        </div>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon"
+              src="data:image/png;base64,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" />
+            <span class="skills-card-name">Kubernetes</span>
+          </div>
+        </div>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon"
+              src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" />
+            <span class="skills-card-name">Git</span>
+          </div>
+        </div>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon"
+              src="https://cdn-icons-png.flaticon.com/512/4727/4727424.png" />
+            <span class="skills-card-name">CI/CD</span>
+          </div>
+        </div>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon"
+              src="https://cdn-icons-png.flaticon.com/512/2920/2920277.png" />
+            <span class="skills-card-name">Logging & Monitoring</span>
+          </div>
+        </div>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon"
+              src="https://cdn-icons-png.flaticon.com/512/1827/1827370.png" />
+            <span class="skills-card-name">Alerting</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cloud Platforms -->
+      <div>
+        <h2 class="skills-subtitle">Cloud Platforms</h2>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon"
+              src="https://miro.medium.com/v2/resize:fit:480/1*YvUqkWfd4hN_7I44XfLUPg.png" />
+            <span class="skills-card-name">AWS SageMaker</span>
+          </div>
+        </div>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVM4h6S-1IcSrA8KpJvL-OeZkFJqy60V5JFQ&s" />
+            <span class="skills-card-name">AWS Lambda</span>
+          </div>
+        </div>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon"
+              src="https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/1/aws-step-functions-bdagl2uve6mc5xyzf8ut3i.png/aws-step-functions-yoa6fs8dq2q0mx085wgofne.png?_a=DATAg1AAZAA0" />
+            <span class="skills-card-name">AWS Step Functions</span>
+          </div>
+        </div>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon"
+              src="https://image.pngaaa.com/640/876640-middle.png" />
+            <span class="skills-card-name">AWS ECS</span>
+          </div>
+        </div>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon"
+              src="https://miro.medium.com/v2/resize:fit:1400/0*fEAM7mjAdzIC4YTB.png" />
+            <span class="skills-card-name">Google Cloud (GKE)</span>
+          </div>
+        </div>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon"
+              src="https://avatars.githubusercontent.com/u/2810941?s=200&v=4" />
+            <span class="skills-card-name">GCP Monitoring</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tools & Operating Systems -->
+      <div>
+        <h2 class="skills-subtitle">Tools & OS</h2>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon"
+              src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" />
+            <span class="skills-card-name">GitHub</span>
+          </div>
+        </div>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon"
+              src="https://cdn-icons-png.flaticon.com/512/2772/2772128.png" />
+            <span class="skills-card-name">SQL</span>
+          </div>
+        </div>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon"
+              src="https://user-images.githubusercontent.com/674621/71187801-14e60a80-2280-11ea-94c9-e56576f76baf.png" />
+            <span class="skills-card-name">VS Code</span>
+          </div>
+        </div>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon"
+              src="data:image/jpeg;base64,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" />
+            <span class="skills-card-name">Cursor</span>
+          </div>
+        </div>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon"
+              src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" />
+            <span class="skills-card-name">Linux</span>
+          </div>
+        </div>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon"
+              src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Windows_logo_-_2012.svg" />
+            <span class="skills-card-name">Windows</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Soft Skills -->
+      <div>
+        <h2 class="skills-subtitle">Soft Skills</h2>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon"
+              src="https://cdn-icons-png.flaticon.com/512/1077/1077012.png" />
+            <span class="skills-card-name">Team Player</span>
+          </div>
+        </div>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon"
+              src="https://cdn-icons-png.flaticon.com/512/1055/1055645.png" />
+            <span class="skills-card-name">Result-Oriented</span>
+          </div>
+        </div>
+        <div class="skills-data">
+          <div class="skills-card">
+            <img class="skills-card-img skills-icon"
+              src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" />
+            <span class="skills-card-name">Ownership & Accountability</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--------------------- Skills Section End --------------------->
+
+  <!--------------------- Project Section --------------------->
+  <section class="projects section" id="projects">
+    <div class="heading">
+      <h2>Professional Projects & Technical Leadership</h2>
+      <span>Enterprise-Grade Backend Systems & Cloud Architecture</span>
+    </div>
+    <br>
+
+    <div class="projects-professional">
+      <!------- Project 1: Sean Chatbot ------->
+      <div class="project-professional">
+        <div class="project-header-pro">
+          <div class="project-title-section">
+            <h3>LLM-Powered Customer Support Chatbot - Sean</h3>
+            <div class="project-timeline">
+              <span class="timeline-badge">Nov 2024 - Present</span>
+              <span class="status-badge production">Production System</span>
+            </div>
+          </div>
+          <a href="https://sean-staging.neuralhq.ai" target="_blank" class="project-link-pro">
+            <i class='bx bx-link-external'></i> Live Demo
+          </a>
+        </div>
+
+        <div class="project-content-pro">
+          <!-- System Design & Backend -->
+          <div class="achievement-category">
+            <h4><i class='bx bx-cog'></i> System Design & Scalable Backend Development</h4>
+            <ul class="achievement-list">
+              <li>Built backend architecture from scratch using <strong>FastAPI, Redis, Redis Streams, and PostgreSQL</strong>, optimized to handle up to <strong>2000 requests per minute (RPM)</strong></li>
+              <li>Designed and implemented a modular, scalable backend structure to support complex business logic and performant database operations</li>
+              <li>Translated product designs and wireframes into production-ready code using FastAPI and PostgreSQL</li>
+              <li>Developed and deployed microservices with strong focus on scalability, modularity, and observability</li>
+            </ul>
+          </div>
+
+          <!-- Cloud Infrastructure -->
+          <div class="achievement-category">
+            <h4><i class='bx bx-cloud'></i> Cloud-Native Deployment & Infrastructure (GCP)</h4>
+            <ul class="achievement-list">
+              <li>Set up <strong>Google Kubernetes Engine (GKE)</strong> from scratch and managed end-to-end deployment of backend services using Docker and Kubernetes</li>
+              <li>Integrated Redis & Redis Streams for real-time message transformation and conversation state tracking across services</li>
+              <li>Enabled <strong>WebSocket communication at scale</strong> via Nginx Ingress Controller in Kubernetes, supporting real-time bidirectional flows</li>
+            </ul>
+          </div>
+
+          <!-- Monitoring & Scaling -->
+          <div class="achievement-category">
+            <h4><i class='bx bx-bar-chart-alt-2'></i> Auto-Scaling, reliability, Monitoring & Observability</h4>
+            <ul class="achievement-list">
+              <li>Implemented <strong>Horizontal Pod Autoscaling (HPA)</strong> and custom <strong>Horizontal Pod Autoscaling (HPA)</strong> based on Prometheus metrics, dynamically scaling WebSocket services based on active connections</li>
+              <li>configure <strong>Pod Distruption Budget (PDB)</strong> to avoid down time during any disruption</li>
+              <li>Set up distributed tracing and logging using <strong>OpenTelemetry (OTEL)</strong> to monitor service health and debug across microservices</li>
+              <li>Established proactive alerting and anomaly detection using <strong>GCP Monitoring Alerts</strong></li>
+            </ul>
+          </div>
+
+          <!-- CI/CD -->
+          <div class="achievement-category">
+            <h4><i class='bx bx-git-branch'></i> CI/CD & DevOps</h4>
+            <ul class="achievement-list">
+              <li>Set up CI/CD pipelines using <strong>GitHub Actions</strong> for automated building, and deployment</li>
+            </ul>
+          </div>
+
+          <div class="tech-stack-professional">
+            <span class="tech-pro">FastAPI</span>
+            <span class="tech-pro">Redis Streams</span>
+            <span class="tech-pro">PostgreSQL</span>
+            <span class="tech-pro">Kubernetes</span>
+            <span class="tech-pro">GKE</span>
+            <span class="tech-pro">Docker</span>
+            <span class="tech-pro">Prometheus</span>
+            <span class="tech-pro">OpenTelemetry</span>
+            <span class="tech-pro">WebSocket</span>
+            <span class="tech-pro">Nginx</span>
+            <span class="tech-pro">GitHub Actions</span>
+          </div>
+        </div>
+      </div>
+
+      <!------- Project 2: ML Pipeline ------->
+      <div class="project-professional">
+        <div class="project-header-pro">
+          <div class="project-title-section">
+            <h3>Serverless ML Inference Pipeline on AWS</h3>
+            <div class="project-timeline">
+              <span class="timeline-badge">May 2024 - Nov 2024</span>
+              <span class="status-badge aws">AWS Architecture</span>
+            </div>
+          </div>
+          <button class="project-link-pro disabled">
+            <i class='bx bx-shield'></i> Enterprise Project
+          </button>
+        </div>
+
+        <div class="project-content-pro">
+          <!-- Architecture Overview -->
+          <div class="achievement-category">
+            <h4><i class='bx bx-sitemap'></i> End-to-End Serverless Architecture</h4>
+            <ul class="achievement-list">
+              <li>Architected and deployed an <strong>end-to-end ML inference pipeline on AWS</strong> for a retail use case, designed to process batch JSON inputs derived from CSV files uploaded to S3</li>
+              <li>Implemented a <strong>Lambda-triggered workflow</strong> with automated CSV to JSON conversion and timestamp-based file tracking</li>
+            </ul>
+          </div>
+
+          <!-- Pipeline Workflow -->
+          <div class="achievement-category">
+            <h4><i class='bx bx-flow-chart'></i> Automated Workflow & Concurrency Management</h4>
+            <ul class="achievement-list">
+              <li>Designed workflow: Users upload CSV → Lambda converts to JSON → Second Lambda triggers <strong>7 SageMaker endpoints</strong> serving distinct ONNX models → invokes step Function → final output</li>
+              <li>Managed concurrency using <strong>AWS Step Functions</strong> with max concurrency of 2 parallel branches, processing <strong>500 records concurrently</strong> across all 7 endpoints</li>
+              <li>Implemented intelligent result aggregation with custom business rules and automated cleanup mechanisms</li>
+            </ul>
+          </div>
+
+          <!-- Advanced Features -->
+          <div class="achievement-category">
+            <h4><i class='bx bx-shield-check'></i> Fault Tolerance & Cost Optimization</h4>
+            <ul class="achievement-list">
+              <li>Designed robust cleanup mechanism using Lambda functions to automatically destroy all 7 SageMaker endpoints after successful completion or failure scenarios</li>
+              <li>Ensured complete <strong>serverless, event-driven automation</strong> with strong emphasis on cost-efficiency, scalability, and fault-tolerance across all pipeline stages</li>
+              <li>Handled OOM errors, runtime exceptions, and timeout triggers with automated recovery</li>
+            </ul>
+          </div>
+
+          <div class="tech-stack-professional">
+            <span class="tech-pro">AWS Lambda</span>
+            <span class="tech-pro">SageMaker</span>
+            <span class="tech-pro">Step Functions</span>
+            <span class="tech-pro">Amazon S3</span>
+            <span class="tech-pro">Event Scheduler</span>
+            <span class="tech-pro">ONNX Models</span>
+            <span class="tech-pro">Python</span>
+            <span class="tech-pro">Boto3</span>
+            <span class="tech-pro">CloudWatch</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--------------------- Project Section End --------------------->
+
+  <!-- Github Stats Section Start -->
+
+  <section class="react-activity-calendar">
+    <div class="heading">
+      <h2>GitHub Statistics</h2>
+      <span>& Calendar</span>
+    </div>
+    <br>
+    <!-- GitHub Contributions & Activity -->
+    <div style="text-align:center; margin-bottom:20px;">
+      <a href="https://github.com/deependra0411" target="_blank" rel="noreferrer">
+        <img src="https://github-readme-activity-graph.vercel.app/graph?username=deependra0411&theme=github-dark&area=true&hide_border=true" alt="GitHub Activity Graph" style="max-width:100%;" />
+      </a>
+    </div>
+    
+    <!-- Professional GitHub Statistics -->
+    <div class="professional-stats">
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-icon">📊</div>
+          <div class="stat-info">
+            <h3>150+</h3>
+            <p>Pull Requests</p>
+            <small>Across Private & Organization Repos</small>
+          </div>
+        </div>
+        
+        <div class="stat-card">
+          <div class="stat-icon">💻</div>
+          <div class="stat-info">
+            <h3>500+</h3>
+            <p>Commits</p>
+            <small>1.5+ Years of Active Development</small>
+          </div>
+        </div>
+        
+        <div class="stat-card">
+          <div class="stat-icon">🏆</div>
+          <div class="stat-info">
+            <h3>Pull Shark x3</h3>
+            <p>GitHub Achievement</p>
+            <small>Significant PR Contributions</small>
+          </div>
+        </div>
+      
+      </div>
+      
+      <div class="github-note">
+        <p><strong>Note:</strong> Most GitHub activity is in private/organization repositories. 
+        <a href="https://github.com/deependra0411" target="_blank">View Public Profile →</a></p>
+      </div>
+    </div>
+
+    <!-- Public Repository Stats -->
+    <div id="git-stat" style="margin-top: 30px;">
+      <h3 style="text-align: center; color: #c9d1d9; margin-bottom: 20px;">Public Repository Activity</h3>
+      <div>
+        <img id="github-streak-stats"
+          src="https://streak-stats.demolab.com?user=deependra0411&theme=dark&border_radius=6.5&date_format=M%20j%5B%2C%20Y%5D"
+          alt="GitHub Streak Stats" />
+        <br>
+    </div>
+  </section>
+
+  <!-- Link to full profile -->
+  <div style="text-align:center; margin:20px 0;">
+    <a href="https://github.com/deependra0411" target="_blank" rel="noreferrer" style="color:#0d1117; font-weight:600;">
+      View full profile on GitHub →
+    </a>
+  </div>
+
+  <!-- Github Stats Section End -->
+
+
+  <!-- Contact Section Start -->
+
+  <section id="contact">
+
+    <div class="footer" class="contact">
+      <h2>Contact Me</h2>
+      <div class="footer-social">
+        <div>
+          <a id="contact-github" href="https://github.com/deependra0411" target="_blank"><i class='bx bxl-github'></i></a>
+          <h5><a id="contact-github" href="https://github.com/deependra0411" target="_blank">deependra0411</a></h5>
+        </div>
+        <div>
+          <a id="contact-linkedin" href="https://www.linkedin.com/in/deependrakrdk" target="_blank"><i
+              class='bx bxl-linkedin'></i></a>
+          <h5><a id="contact-linkedin" href="https://www.linkedin.com/in/deependrakrdk"
+              target="_blank">deependrakrdk</a></h5>
+        </div>
+        <div>
+          <a id="contact-linkedin" href="mailto:kdeep05.dg@gmail.com" target="_blank"><i class='bx bx-envelope'></i></a>
+          <h5><a id="contact-linkedin" href="mailto:kdeep05.dg@gmail.com" target="_blank">kdeep05.dg@gmail.com</a></h5>
+        </div>
+        <div>
+          <a id="contact-phone" href="tel:+919685468824" target="_blank"><i class='bx bx-phone-call'></i></a>
+          <h5><a id="contact-phone" href="tel:+919685468824" target="_blank">+91-9685468824</a></h5>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Contact Section End -->
+
+  <div class="footer-bottom">
+    <p> Thank You for visiting my PortFolio.</p>
+  </div>
+
+  <!-- JavaScript -->
+  <!-- Removed interactive GitHubCalendar due to proxy/CORS inconsistencies -->
+  <script src="./index.js"></script>
+</body>
+
+</html>
